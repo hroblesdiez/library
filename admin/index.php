@@ -3,10 +3,10 @@ session_start();
 
 if($_POST) {
 
-    if(($_POST['user']) == 'guessuser' && ($_POST['password']) == '1PLN=4,75€'){
+    if(($_POST['user']) == 'xxxxxx' && ($_POST['password']) == 'xxxxxx'){
 
         $_SESSION['user'] = 'guess';
-        $_SESSION['userName'] = 'guessuser';
+        $_SESSION['userName'] = 'xxxxxx';
 
         header('location:home.php');
  }  elseif (($_POST['user']) == '' || ($_POST['password']) == '') {
