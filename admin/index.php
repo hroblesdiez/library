@@ -11,7 +11,7 @@ if($_POST) {
         header('location:home.php');
  }  elseif (($_POST['user']) == '' || ($_POST['password']) == '') {
     $message = 'Please fill all fields';
- }  elseif (($_POST['user']) != 'guessuser' || ($_POST['password']) != '1PLN=4,75€') {
+ }  elseif (($_POST['user']) != 'xxxxxx' || ($_POST['password']) != 'xxxxxx') {
     $message = 'User or password are incorrect';
  }
 
